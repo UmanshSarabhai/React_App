@@ -1,18 +1,20 @@
 * {
-  margin: 0;
-  padding: 0;
+  
   box-sizing: border-box;
 }
 
-body {
-  padding: 2rem;
-}
 
 button {
-  margin: 2rem 0;
-  padding: 1rem 2rem;
-  width: 120px;
+  display: inline-block;
+  padding: 10px;
   cursor: pointer;
+  border-color: blue;
+  border-radius: 10px;
+
+}
+button:hover{
+  border-radius: 10px;
+  background-color:rgb(108, 194, 108)
 }
 
 img {
@@ -22,4 +24,8 @@ h4{
   color: white;
   margin-right: 50px;
   margin-left: 800px;
+}
+input{
+  height:50px;
+  width:300px;
 }
