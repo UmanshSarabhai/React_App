@@ -6,6 +6,7 @@ import Profile from './components/Profile';
 import { useAuth0 } from '@auth0/auth0-react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 function App() {
   const { isLoading } = useAuth0();
 
@@ -15,6 +16,8 @@ function App() {
     <>
       <LoginButton />
       <LogoutButton />
+      <Profile />
+
     </>
   );
 }
